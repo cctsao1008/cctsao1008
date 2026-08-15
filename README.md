@@ -1,12 +1,12 @@
 # Ricardo Tsao
 
-**Senior Manager · Embedded Systems · Firmware · System Architecture · Control Systems · Robotics**
+**Senior Manager · Hands-on Embedded Systems Engineer · Firmware · System Architecture · Control Systems**
 
-Hands-on engineering leader working across embedded software, firmware, hardware/software integration, control systems, real-time systems, and system-level validation.
+I work on engineering problems that cross the boundary between software, firmware, hardware, sensing, actuation, timing, and real-world system behavior.
 
-My work and personal research span embedded Linux, MCU platforms, motor control, robotics, autonomous systems, low-level computer architecture, and specification-to-executable software engineering.
+My background spans embedded systems, MCU and application-processor platforms, RTOS and embedded Linux, flight control, motor control, robotics, autonomous systems, system integration, and low-level computer architecture.
 
-I am particularly interested in the boundaries between specification, architecture, implementation, verification, hardware behavior, and real-world measurement — the places where individually correct components can still fail as an integrated system.
+Today, I remain hands-on while also working at the architecture and technical-leadership level. I am especially interested in systems where correctness depends not only on individual components, but on how specification, software, hardware, timing, verification, and measurement interact as a whole.
 
 ## Current Focus
 
@@ -17,10 +17,11 @@ I am particularly interested in the boundaries between specification, architectu
 - Control systems and robotics
 - Hardware/software integration and bring-up
 - System modeling, verification, debugging, and validation
+- Low-level processor and bus interfacing
 - Specification-to-executable engineering
-- Trust and evidence for AI-assisted software engineering
+- Trust, evidence, and provenance for AI-assisted software engineering
 
-## Selected Projects
+## Selected Current Projects
 
 ### [Spec2Exec](https://github.com/cctsao1008/spec2exec)
 
@@ -44,21 +45,99 @@ The architecture explores deterministic RP2350 firmware for V30 clocking and bus
 
 ### [TMR-FC — Top Multi-Rotor Flight Controller](https://github.com/cctsao1008/tmr-flight-controller)
 
-Historical open hardware and software multirotor flight-controller project built around STM32F405/STM32F407 and PX4-derived firmware.
+Historical open hardware and software multirotor flight-controller platform built around STM32F405/STM32F407 and PX4-derived firmware.
 
-The platform includes inertial and environmental sensing, actuator interfaces, data logging, navigation interfaces, and experiments with Raspberry Pi companion computing for OpenCV, ROS, MAVLink, vision, and optical-flow applications.
+The platform integrates inertial and environmental sensing, actuator interfaces, data logging, navigation interfaces, and Raspberry Pi companion-computer experiments for OpenCV, ROS, MAVLink, vision, and optical-flow applications.
 
-### [NTUT Rover](https://github.com/cctsao1008/ntut_rover)
+## Engineering Journey
 
-Autonomous ground-vehicle experiment using Raspberry Pi, GPS waypoint navigation, motor control, filtering, and supporting MATLAB-based GPS analysis.
+### 2005–2008 · Early Embedded Systems
 
-### [DEVC Motion Controller](https://github.com/cctsao1008/devc_motion_controller)
+My early work covered several very different embedded domains:
 
-Modular mobile-robot motion-control framework covering forward/inverse kinematics, PID and fuzzy control paths, platform abstraction, simulation, and STM32-based firmware targets.
+- Quadcopter development on an EM78569 platform
+- Mitsubishi PLC work for chemical-process control
+- Sunplus-based interactive storybook systems
+- Sunplus video / display processing experiments
+
+These projects established the foundation for working close to hardware, timing, peripherals, real-world I/O, and embedded-system constraints.
+
+### 2008–2016 · Mobile and Embedded Platforms
+
+I spent a major part of this period working on Qualcomm-based mobile platforms and embedded software integration.
+
+This period strengthened my experience in larger embedded software stacks, platform integration, device-level debugging, communication interfaces, and the interaction between low-level software and application-level system behavior.
+
+### 2010s · Flight Control, Motor Control, and Autonomous Systems
+
+In parallel, I worked extensively on flight-control and autonomous-system technology using STM32-class MCUs and related embedded platforms.
+
+Representative areas include:
+
+- STM32 flight controllers
+- NuttX and PX4-derived systems
+- BLDC electronic speed controllers
+- Gimbal control
+- Optical-flow sensing
+- Integrated flight-controller and multi-ESC platforms
+- IMU, barometer, magnetometer, and navigation-sensor integration
+
+Some of the historical source and board-porting work from this period is preserved in:
+
+- [TMR-FC](https://github.com/cctsao1008/tmr-flight-controller)
+- [TMR-FC NuttX](https://github.com/cctsao1008/tmrfc-nuttx)
+- [Bootloader](https://github.com/cctsao1008/Bootloader)
+
+### 2010s · Robotics and Heterogeneous Systems
+
+The work expanded beyond MCU-only systems into heterogeneous architectures combining embedded controllers with application processors.
+
+Projects and experiments included:
+
+- STM32 + Nvidia Tegra K1 flight-controller architecture
+- Computer-vision concepts for drones
+- SLAM-oriented autonomous ground vehicles
+- Mixed-reality drone concepts
+- TI-based embedded application-processor platforms
+- AGV systems
+- Robot-arm integration
+- Data-acquisition and equipment-control systems
+
+Related repositories include:
+
+- [NTUT Rover](https://github.com/cctsao1008/ntut_rover)
+- [DEVC Motion Controller](https://github.com/cctsao1008/devc_motion_controller)
+- [CTC Control](https://github.com/cctsao1008/ctc_control)
+
+### Embedded RTOS, Sensors, and Audio Experiments
+
+Several older repositories preserve experiments in RTOS porting, sensor integration, audio processing, and low-level embedded software:
+
+- [My_StoryBook](https://github.com/cctsao1008/My_StoryBook) — GPCE063, FreeRTOS, audio decoding, sensors, and file-system integration
+- [Tom Wheel Demo](https://github.com/cctsao1008/tom_wheel_demo) — FreeRTOS, BMA180, software I2C, A1600 audio, and Petit FAT
+- [Digital Filter](https://github.com/cctsao1008/digital-filter) — C implementation and Octave/MATLAB comparison of IIR/FIR digital filters
+- [TS100 GCC](https://github.com/cctsao1008/ts100-gcc) — GCC/Make-based STM32 firmware build for the TS100 soldering iron
+
+### Recent Work · Real-Time Linux, RP2350, and Low-Level Architecture
+
+More recent work has returned to low-level system architecture from a different direction:
+
+- Embedded Linux and Buildroot
+- PREEMPT_RT and real-time Linux experiments
+- USB gadget interfaces
+- RP2350 and dual-core MCU architecture
+- Physical processor interfacing and deterministic bus service
+- Control-system implementation and verification
+
+### Current Research · Trustworthy Software Construction
+
+My current research direction is [Spec2Exec](https://github.com/cctsao1008/spec2exec), which explores whether accepted semantics, deterministic verification, executable generation, evidence, and provenance can be connected into a more trustworthy software-development chain.
+
+This is a natural extension of a recurring engineering problem I have seen across embedded systems: a system can appear correct at the requirement, software, hardware, or test level individually and still fail at the boundaries between them.
 
 ## Real-Time Linux Experiments
 
-Ongoing exploration of Linux-based embedded and real-time systems, including:
+Ongoing exploration of Linux-based embedded and real-time systems includes:
 
 - PREEMPT_RT
 - Embedded Linux
@@ -100,7 +179,7 @@ I am most interested in the gaps between these layers: ambiguous intent, hidden 
 `C` · `C++` · `Python` · `Bash` · `CMake` · `Git`
 
 **Systems**  
-`Linux` · `Embedded Linux` · `PREEMPT_RT` · `Buildroot` · `QEMU`
+`Linux` · `Embedded Linux` · `PREEMPT_RT` · `Buildroot` · `FreeRTOS` · `NuttX` · `QEMU`
 
 **Control / Robotics**  
 `State Space` · `PID` · `LQR` · `State Estimation` · `Kalman Filtering` · `System Identification`
