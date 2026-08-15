@@ -116,7 +116,7 @@ Related repositories include:
 Several older repositories preserve experiments in RTOS porting, sensor integration, audio processing, and low-level embedded software:
 
 - [GPCE063 FreeRTOS Storybook](https://github.com/cctsao1008/gpce063-freertos-storybook) — GPCE063, FreeRTOS, audio decoding, sensors, and file-system integration
-- [Tom Wheel Demo](https://github.com/cctsao1008/tom_wheel_demo) — FreeRTOS, BMA180, software I2C, A1600 audio, and Petit FAT
+- [GPCE063 FreeRTOS Motion Audio Demo](https://github.com/cctsao1008/gpce063-freertos-motion-audio-demo) — FreeRTOS, BMA180, software I2C, A1600 audio, and Petit FAT
 - [Digital Filter](https://github.com/cctsao1008/digital-filter) — C implementation and Octave/MATLAB comparison of IIR/FIR digital filters
 - [TS100 GCC](https://github.com/cctsao1008/ts100-gcc) — GCC/Make-based STM32 firmware build for the TS100 soldering iron
 
