@@ -8,6 +8,8 @@ My background spans embedded systems, MCU and application-processor platforms, R
 
 Today, I remain hands-on while also working at the architecture and technical-leadership level. I am especially interested in systems where correctness depends not only on individual components, but on how specification, software, hardware, timing, verification, and measurement interact as a whole.
 
+> **The projects and technical work highlighted here are personal projects, historical work, or public open-source activities, and are independent of my current employer.**
+
 ## Current Focus
 
 - Embedded systems and firmware architecture
