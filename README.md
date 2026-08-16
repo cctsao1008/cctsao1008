@@ -1,6 +1,6 @@
 # Ricardo Tsao
 
-**Senior Manager · Hands-on Embedded Systems Engineer · Firmware · System Architecture · Control Systems**
+**Technical Leader · Hands-on Embedded Systems Engineer · Firmware · System Architecture · Control Systems**
 
 I work on engineering problems that cross the boundary between software, firmware, hardware, sensing, actuation, timing, and real-world system behavior.
 
