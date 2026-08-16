@@ -108,15 +108,15 @@ Projects and experiments included:
 - SLAM-oriented autonomous ground vehicles
 - Mixed-reality drone concepts
 - TI-based embedded application-processor platforms
-- AGV systems
+- Mecanum-wheel AGV motion control
 - Robot-arm integration
-- Data-acquisition and equipment-control systems
+- Instrument automation and multi-device equipment control
 
 Related repositories include:
 
 - [NTUT Rover](https://github.com/cctsao1008/ntut_rover)
-- [DEVC Motion Controller](https://github.com/cctsao1008/devc_motion_controller)
-- [CTC Control](https://github.com/cctsao1008/ctc_control)
+- [Mecanum AGV Motion Control](https://github.com/cctsao1008/mecanum-agv-motion-control) — vehicle-frame motion control, Mecanum-wheel kinematics, feedback control, and embedded execution for an AGV mobile base
+- [Instrument Automation Control](https://github.com/cctsao1008/instrument-automation-control) — modular instrument automation and equipment orchestration across device control, communication, scripting, scheduling, and data services
 
 ### Embedded RTOS, Sensors, and Audio Experiments
 
