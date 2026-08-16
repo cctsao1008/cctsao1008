@@ -71,13 +71,21 @@ My early work covered several very different embedded domains:
 
 These projects established the foundation for working close to hardware, timing, peripherals, real-world I/O, and embedded-system constraints.
 
-### 2008–2016 · Mobile and Embedded Platforms
+### 2008–2021 · Embedded Systems, Mobile Platforms, Robotics, and Automation
+
+During this period, my work expanded from device-level software and firmware into larger embedded platforms, control systems, robotics, heterogeneous computing, and complete physical-system integration.
+
+The work covered Qualcomm-based mobile platforms, STM32 flight-control systems, BLDC motor control, sensing, Mecanum-wheel AGV motion control, robotic-system integration, application-processor architectures, and instrument automation.
+
+Across these projects, the recurring engineering problem was increasingly not just how to implement one component, but how multiple hardware and software subsystems should interact as a reliable system.
+
+#### Mobile and Embedded Platforms
 
 I spent a major part of this period working on Qualcomm-based mobile platforms and embedded software integration.
 
-This period strengthened my experience in larger embedded software stacks, platform integration, device-level debugging, communication interfaces, and the interaction between low-level software and application-level system behavior.
+This strengthened my experience in larger embedded software stacks, platform integration, device-level debugging, communication interfaces, and the interaction between low-level software and application-level system behavior.
 
-### 2010s · Flight Control, Motor Control, and Autonomous Systems
+#### Flight Control, Motor Control, and Autonomous Systems
 
 In parallel, I worked extensively on flight-control and autonomous-system technology using STM32-class MCUs and related embedded platforms.
 
@@ -97,9 +105,9 @@ Some of the historical source and board-porting work from this period is preserv
 - [TMR-FC NuttX](https://github.com/cctsao1008/tmrfc-nuttx)
 - [Bootloader](https://github.com/cctsao1008/Bootloader)
 
-### 2010s · Robotics and Heterogeneous Systems
+#### Robotics and Heterogeneous Systems
 
-The work expanded beyond MCU-only systems into heterogeneous architectures combining embedded controllers with application processors.
+The work also expanded beyond MCU-only systems into heterogeneous architectures combining embedded controllers with application processors.
 
 Projects and experiments included:
 
@@ -128,9 +136,15 @@ Several older repositories preserve experiments in RTOS porting, sensor integrat
 - [C Digital Filter Lab](https://github.com/cctsao1008/c-digital-filter-lab) — C implementation and Octave/MATLAB comparison of IIR/FIR digital filters
 - [TS100 GCC](https://github.com/cctsao1008/ts100-gcc) — GCC/Make-based STM32 firmware build for the TS100 soldering iron
 
+### 2021–Present · System Integration, Architecture, and Technical Leadership
+
+My work has increasingly expanded from hands-on implementation, bring-up, and system debugging into architecture, cross-domain integration, validation, technical decision-making, project planning, and engineering execution across multiple projects and teams.
+
+The underlying approach remains the same: understand the system at implementation level when necessary, then connect those details back to architecture, interfaces, validation, measurable evidence, and technical decisions.
+
 ### Recent Work · Real-Time Linux, RP2350, and Low-Level Architecture
 
-More recent work has returned to low-level system architecture from a different direction:
+More recent hands-on work has returned to low-level system architecture from a different direction:
 
 - Embedded Linux and Buildroot
 - PREEMPT_RT and real-time Linux experiments
