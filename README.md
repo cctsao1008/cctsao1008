@@ -6,7 +6,7 @@ I work on engineering problems that cross the boundary between software, firmwar
 
 My background spans embedded systems, MCU and application-processor platforms, RTOS and embedded Linux, flight control, motor control, robotics, autonomous systems, system integration, and low-level computer architecture.
 
-Today, I remain hands-on while also working at the architecture and technical-leadership level. I am especially interested in systems where correctness depends not only on individual components, but on how specification, software, hardware, timing, verification, and measurement interact as a whole.
+Today, I remain hands-on while also working at the architecture and technical-leadership level. I am especially interested in systems where correctness depends not only on individual components, but on how specification, software, hardware, timing, verification, measurement, and engineering decisions interact as a whole.
 
 > **The projects and technical work highlighted here are personal projects, historical work, or public open-source activities, and are independent of my current employer.**
 
@@ -20,6 +20,7 @@ Today, I remain hands-on while also working at the architecture and technical-le
 - Hardware/software integration and bring-up
 - System modeling, verification, debugging, and validation
 - Low-level processor and bus interfacing
+- Technical planning, engineering governance, validation, and evidence-based execution
 - Specification-to-executable engineering
 - Trust, evidence, and provenance for AI-assisted software engineering
 
@@ -32,6 +33,12 @@ Today, I remain hands-on while also working at the architecture and technical-le
 Research prototype exploring how accepted semantics, deterministic verification, artifact-bound evidence, provenance, and executable generation can be connected into a trustworthy specification-to-executable chain.
 
 The current prototype demonstrates a native RV32I path under QEMU with explicit per-boundary evidence. Semantic-authority gating and physical RP2350 / Hazard3 validation remain active research directions.
+
+### [Technical Management Framework](https://github.com/cctsao1008/technical-management-framework)
+
+A reusable, project-agnostic framework for technical planning, engineering governance, execution, validation, evidence management, knowledge capture, and AI-assisted collaboration.
+
+The framework separates reusable management and execution practices from project-local technical truth, with explicit treatment of baselines and rebaselining, decision records, risk and assumption management, evidence chains, validation, retrospectives, and cross-project learning.
 
 ### [Rotary Inverted Pendulum](https://github.com/cctsao1008/inverted-pendulum)
 
@@ -132,11 +139,13 @@ More recent work has returned to low-level system architecture from a different 
 - Physical processor interfacing and deterministic bus service
 - Control-system implementation and verification
 
-### Current Research · Trustworthy Software Construction
+### Current Research · Trustworthy Software Construction and Technical Execution
 
 My current research direction is [Spec2Exec](https://github.com/cctsao1008/spec2exec), which explores whether accepted semantics, deterministic verification, executable generation, evidence, and provenance can be connected into a more trustworthy software-development chain.
 
-This is a natural extension of a recurring engineering problem I have seen across embedded systems: a system can appear correct at the requirement, software, hardware, or test level individually and still fail at the boundaries between them.
+In parallel, the [Technical Management Framework](https://github.com/cctsao1008/technical-management-framework) captures reusable practices for technical planning, engineering governance, execution, validation, evidence management, and AI-assisted collaboration across projects.
+
+Both directions grow from the same recurring engineering problem: a system can appear correct at the requirement, software, hardware, management, or test level individually and still fail at the boundaries between them.
 
 ## Real-Time Linux Experiments
 
@@ -158,6 +167,8 @@ Specification
         ↓
 Architecture
         ↓
+Planning / Governance
+        ↓
 Modeling
         ↓
 Implementation
@@ -168,10 +179,10 @@ Hardware
         ↓
 Measurement
         ↓
-Feedback
+Evidence / Feedback
 ```
 
-I am most interested in the gaps between these layers: ambiguous intent, hidden assumptions, timing effects, hardware/software mismatches, incomplete validation, and integration failures that are difficult to see when each layer is considered independently.
+I am most interested in the gaps between these layers: ambiguous intent, hidden assumptions, timing effects, hardware/software mismatches, incomplete validation, weak evidence chains, and integration failures that are difficult to see when each layer is considered independently.
 
 ## Technologies
 
@@ -186,6 +197,9 @@ I am most interested in the gaps between these layers: ambiguous intent, hidden 
 
 **Control / Robotics**  
 `State Space` · `PID` · `LQR` · `State Estimation` · `Kalman Filtering` · `System Identification`
+
+**Engineering Execution**  
+`Technical Planning` · `Engineering Governance` · `ADRs` · `Validation` · `Evidence Chains` · `Risk & Assumption Management`
 
 **Interfaces / Integration**  
 `UART` · `SPI` · `I2C` · `CAN` · `USB` · `RS-485` · `MAVLink`
