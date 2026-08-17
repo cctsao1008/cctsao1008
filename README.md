@@ -28,6 +28,7 @@ Today, I remain hands-on while also working at the architecture and technical-le
 
 ### [Spec2Exec](https://github.com/cctsao1008/spec2exec)
 
+**2026–Present · Active Research**  
 **Specification-to-Executable Architecture**
 
 Research prototype exploring how accepted semantics, deterministic verification, artifact-bound evidence, provenance, and executable generation can be connected into a trustworthy specification-to-executable chain.
@@ -36,11 +37,15 @@ The current prototype demonstrates a native RV32I path under QEMU with explicit 
 
 ### [Technical Management Framework](https://github.com/cctsao1008/technical-management-framework)
 
+**2026–Present · Active Development**
+
 A reusable, project-agnostic framework for technical planning, engineering governance, execution, validation, evidence management, knowledge capture, and AI-assisted collaboration.
 
 The framework separates reusable management and execution practices from project-local technical truth, with explicit treatment of baselines and rebaselining, decision records, risk and assumption management, evidence chains, validation, retrospectives, and cross-project learning.
 
 ### [Rotary Inverted Pendulum](https://github.com/cctsao1008/inverted-pendulum)
+
+**2026–Present · Active Development**
 
 From-scratch embedded firmware and control software for a rotary inverted pendulum.
 
@@ -48,11 +53,15 @@ The project covers STM32F103 bring-up, sensing, encoder acquisition, motor chara
 
 ### [Pi86-RP2350](https://github.com/cctsao1008/pi86-rp2350)
 
+**2026–Present · Active Development**
+
 Porting the Pi86 concept to a Waveshare RP2350-PiZero while preserving the original Pi86 V20/V30 HAT and using a physical NEC V30 processor.
 
 The architecture explores deterministic RP2350 firmware for V30 clocking and bus service using PIO/SIO, with planned PSRAM, MicroSD, DVI, and USB integration. The current phase is hardware bring-up.
 
 ### [TMR-FC — Top Multi-Rotor Flight Controller](https://github.com/cctsao1008/tmr-flight-controller)
+
+**2013 · Historical Project**
 
 Historical open hardware and software multirotor flight-controller platform built around STM32F405/STM32F407 and PX4-derived firmware.
 
@@ -101,9 +110,9 @@ Representative areas include:
 
 Some of the historical source and board-porting work from this period is preserved in:
 
-- [TMR-FC](https://github.com/cctsao1008/tmr-flight-controller)
-- [TMR-FC NuttX](https://github.com/cctsao1008/tmrfc-nuttx)
-- [Bootloader](https://github.com/cctsao1008/Bootloader)
+- [TMR-FC](https://github.com/cctsao1008/tmr-flight-controller) — **2013** · PX4-derived flight-controller platform and board-porting work
+- [TMR-FC NuttX](https://github.com/cctsao1008/tmrfc-nuttx) — **2013** · NuttX-based platform work associated with TMR-FC
+- [Bootloader](https://github.com/cctsao1008/Bootloader) — **2013** · Modified PX4 bootloader for TMR-FC
 
 #### Robotics and Heterogeneous Systems
 
@@ -122,19 +131,19 @@ Projects and experiments included:
 
 Related repositories include:
 
-- [NTUT Rover](https://github.com/cctsao1008/ntut_rover)
-- [Mecanum AGV Motion Control](https://github.com/cctsao1008/mecanum-agv-motion-control) — vehicle-frame motion control, Mecanum-wheel kinematics, feedback control, and embedded execution for an AGV mobile base
-- [Instrument Automation Control](https://github.com/cctsao1008/instrument-automation-control) — modular instrument automation and equipment orchestration across device control, communication, scripting, scheduling, and data services
+- [NTUT Rover](https://github.com/cctsao1008/ntut_rover) — **2014** · Raspberry Pi-based autonomous rover following recorded GPS waypoints
+- [Mecanum AGV Motion Control](https://github.com/cctsao1008/mecanum-agv-motion-control) — **2016** · vehicle-frame motion control, Mecanum-wheel kinematics, feedback control, and embedded execution for an AGV mobile base
+- [Instrument Automation Control](https://github.com/cctsao1008/instrument-automation-control) — **2017** · modular instrument automation and equipment orchestration across device control, communication, scripting, scheduling, and data services
 
 ### Embedded RTOS, Sensors, and Audio Experiments
 
 Several older repositories preserve experiments in RTOS porting, sensor integration, audio processing, and low-level embedded software:
 
-- [GPCE063 FreeRTOS Storybook](https://github.com/cctsao1008/gpce063-freertos-storybook) — GPCE063, FreeRTOS, audio decoding, sensors, and file-system integration
-- [GPCE063 FreeRTOS Motion Audio Demo](https://github.com/cctsao1008/gpce063-freertos-motion-audio-demo) — FreeRTOS, BMA180, software I2C, A1600 audio, and Petit FAT
-- [GPCE2064 FreeRTOS Funny Car](https://github.com/cctsao1008/gpce2064-freertos-funny-car) — GPCE2064, FreeRTOS V8.0.0-era, audio, key scanning, LED control, sleep mode, and Petit FAT
-- [C Digital Filter Lab](https://github.com/cctsao1008/c-digital-filter-lab) — C implementation and Octave/MATLAB comparison of IIR/FIR digital filters
-- [TS100 GCC](https://github.com/cctsao1008/ts100-gcc) — GCC/Make-based STM32 firmware build for the TS100 soldering iron
+- [GPCE063 FreeRTOS Storybook](https://github.com/cctsao1008/gpce063-freertos-storybook) — **2011** · GPCE063, FreeRTOS, audio decoding, sensors, and file-system integration
+- [GPCE063 FreeRTOS Motion Audio Demo](https://github.com/cctsao1008/gpce063-freertos-motion-audio-demo) — **2013** · FreeRTOS, BMA180, software I2C, A1600 audio, and Petit FAT
+- [GPCE2064 FreeRTOS Funny Car](https://github.com/cctsao1008/gpce2064-freertos-funny-car) — **2014** · GPCE2064, FreeRTOS V8.0.0-era, audio, key scanning, LED control, sleep mode, and Petit FAT
+- [C Digital Filter Lab](https://github.com/cctsao1008/c-digital-filter-lab) — **2016** · Octave/MATLAB filter design and validation, with resulting IIR/FIR coefficients translated into explicit C implementations
+- [TS100 GCC](https://github.com/cctsao1008/ts100-gcc) — **2017** · historical GCC/Make-based STM32 firmware port/build work for the TS100 soldering iron
 
 ### 2021–Present · System Integration, Architecture, and Technical Leadership
 
