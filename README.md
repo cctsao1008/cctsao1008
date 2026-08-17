@@ -10,6 +10,12 @@ Today, I remain hands-on while also working at the architecture and technical-le
 
 > **The projects and technical work highlighted here are personal projects, historical work, or public open-source activities, and are independent of my current employer.**
 
+## Engineering Approach
+
+I tend to look at engineering problems across layers — from requirements and architecture down to firmware, hardware, timing, and real-world behavior.
+
+My approach is to understand the system deeply, make assumptions explicit, and connect implementation to verification, measurement, and evidence.
+
 ## Current Focus
 
 - Embedded systems and firmware architecture
