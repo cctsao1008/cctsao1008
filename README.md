@@ -86,52 +86,6 @@ My engineering path has evolved from early embedded systems and control, through
 [2006 quadcopter project and provenance →](docs/early-quadcopter-2006.md)  
 [Historical projects index →](docs/historical-projects.md)
 
-## Engineering Perspective
-
-```text
-Intent / Requirement
-        ↓
-Specification
-        ↓
-Architecture
-        ↓
-Planning / Governance
-        ↓
-Modeling
-        ↓
-Implementation
-        ↓
-Verification
-        ↓
-Hardware
-        ↓
-Measurement
-        ↓
-Evidence / Feedback
-```
-
-I am most interested in the gaps between these layers: ambiguous intent, hidden assumptions, timing effects, hardware/software mismatches, incomplete validation, weak evidence chains, and integration failures that are difficult to see when each layer is considered independently.
-
-## Technical Domains
-
-**Processor & System Architecture**  
-`MCU` · `SoC / Application Processor` · `ARM Cortex-M` · `RISC-V` · `Heterogeneous Embedded Systems`
-
-**Embedded & Real-Time Systems**  
-`Embedded Linux` · `PREEMPT_RT` · `RTOS` · `Buildroot`
-
-**Control & Robotics**  
-`State-Space Control` · `PID` · `LQR` · `State Estimation` · `Kalman Filtering` · `System Identification`
-
-**Software Engineering**  
-`C` · `C++` · `Python` · `Build Systems` · `Version Control` · `Emulation / Simulation`
-
-**Verification & Technical Execution**  
-`Verification` · `Validation` · `Root-Cause Analysis` · `Architecture Decisions` · `Evidence Chains` · `Risk & Assumption Management`
-
-**System Integration**  
-`Hardware/Software Integration` · `Communication Interfaces` · `Bring-up` · `Cross-Domain Debugging`
-
 ## Philosophy
 
 > Build systems that are not only functional, but understandable, testable, verifiable, and explainable.
