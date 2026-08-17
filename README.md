@@ -20,12 +20,9 @@ My approach is to understand the system deeply, make assumptions explicit, and c
 
 - System architecture and cross-domain integration
 - Technical leadership and engineering execution
-- Verification, validation, and evidence-based engineering
+- Verification, validation, debugging, and evidence-based engineering
 - Embedded and real-time systems
 - Control systems and robotics
-- System modeling, debugging, and root-cause analysis
-- Hardware/software integration and bring-up
-- Low-level processor and interface architecture
 - Specification-to-executable engineering and trustworthy AI-assisted software development
 
 ## Selected Projects
