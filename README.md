@@ -2,33 +2,35 @@
 
 **Technical Leader · Hands-on Embedded Systems Engineer · System Architecture · Control Systems**
 
-I work on engineering problems that cross the boundary between software, firmware, hardware, sensing, actuation, timing, and real-world system behavior.
+I work on engineering problems that span software, embedded systems, system architecture, control, integration, timing, and real-world behavior.
 
-My background spans embedded systems, MCU and application-processor platforms, RTOS and embedded Linux, flight control, motor control, robotics, autonomous systems, system integration, and low-level computer architecture.
+My background includes embedded systems, real-time software, control systems, robotics, autonomous systems, system integration, and low-level computing.
 
-Today, I remain hands-on while also working at the architecture and technical-leadership level. I am especially interested in systems where correctness depends not only on individual components, but on how specification, software, hardware, timing, verification, measurement, and engineering decisions interact as a whole.
+Today, I remain hands-on while working increasingly at the architecture and technical-leadership level. I am especially interested in systems where correctness depends not only on individual components, but on how requirements, architecture, implementation, verification, measurement, and engineering decisions interact as a whole.
 
 > **The projects and technical work highlighted here are personal projects, historical work, or public open-source activities, and are independent of my current employer.**
 
 ## Engineering Approach
 
-I tend to look at engineering problems across layers — from requirements and architecture down to firmware, hardware, timing, and real-world behavior.
+I tend to look at engineering problems across layers — from requirements and architecture through implementation, integration, verification, and real-world behavior.
 
-My approach is to understand the system deeply, make assumptions explicit, and connect implementation to verification, measurement, and evidence.
+My approach is to understand the system deeply, make assumptions explicit, and connect technical decisions to measurable evidence.
 
 ## Current Focus
 
-- Embedded systems and firmware architecture
-- Embedded Linux and real-time systems
-- MCU-based system development
-- Motor control, control systems, and robotics
+- System architecture and cross-domain integration
+- Technical leadership and engineering execution
+- Verification, validation, and evidence-based engineering
+- Embedded and real-time systems
+- Control systems and robotics
+- System modeling, debugging, and root-cause analysis
 - Hardware/software integration and bring-up
-- System modeling, debugging, verification, and validation
-- Low-level processor and bus interfacing
-- Technical planning, engineering governance, and evidence-based execution
+- Low-level processor and interface architecture
 - Specification-to-executable engineering and trustworthy AI-assisted software development
 
 ## Selected Projects
+
+These projects represent different parts of the same engineering path: system architecture, control, low-level implementation, verification, and technical execution.
 
 ### [Spec2Exec](https://github.com/cctsao1008/spec2exec)
 
@@ -82,7 +84,7 @@ My early work covered several very different embedded domains:
 - Sunplus-based interactive storybook systems
 - Sunplus video / display processing experiments
 
-These projects established the foundation for working close to hardware, timing, peripherals, real-world I/O, and embedded-system constraints.
+These early systems established a foundation in embedded implementation, control, timing, and real-world I/O, while also showing that system behavior rarely belongs to software or hardware alone.
 
 ### 2008–2021 · Embedded Systems, Mobile Platforms, Robotics, and Automation
 
@@ -90,7 +92,7 @@ During this period, my work expanded from device-level software and firmware int
 
 The work covered Qualcomm-based mobile platforms, STM32 flight-control systems, BLDC motor control, sensing, Mecanum-wheel AGV motion control, robotic-system integration, application-processor architectures, and instrument automation.
 
-Across these projects, the recurring engineering problem was increasingly not just how to implement one component, but how multiple hardware and software subsystems should interact as a reliable system.
+As the systems became more complex, the engineering challenge increasingly shifted from implementing individual components to understanding interfaces, integration behavior, and the assumptions between subsystems.
 
 #### Mobile and Embedded Platforms
 
@@ -141,7 +143,7 @@ Related repositories include:
 
 #### Historical Platform Context
 
-Historical platforms and environments from this period included Qualcomm MSM-series application processors, STM32 F1/F3/F4, Raspberry Pi, Generalplus GPCE, NXP and Nuvoton MCUs, Nvidia Tegra K1, and RTOS environments including FreeRTOS, NuttX, uC/OS, RTX, and RT-Thread.
+The work during this period spanned mobile application processors, MCU-based control systems, RTOS platforms, robotics, and heterogeneous embedded architectures.
 
 ### Embedded RTOS, Sensors, and Audio Experiments
 
@@ -156,6 +158,8 @@ Several older repositories preserve experiments in RTOS porting, sensor integrat
 ### 2021–Present · System Integration, Architecture, and Technical Leadership
 
 My work has increasingly expanded from hands-on implementation, bring-up, and system debugging into architecture, cross-domain integration, validation, technical decision-making, project planning, and engineering execution across multiple projects and teams.
+
+As the scope expanded across projects and teams, the difficult questions increasingly moved toward architecture, technical decisions, validation strategy, evidence, and how engineering work should be structured and communicated.
 
 The underlying approach remains the same: understand the system at implementation level when necessary, then connect those details back to architecture, interfaces, validation, measurable evidence, and technical decisions.
 
@@ -176,7 +180,7 @@ My current research direction is [Spec2Exec](https://github.com/cctsao1008/spec2
 
 In parallel, the [Technical Management Framework](https://github.com/cctsao1008/technical-management-framework) captures reusable practices for technical planning, engineering governance, execution, validation, evidence management, and AI-assisted collaboration across projects.
 
-Both directions grow from the same recurring engineering problem: a system can appear correct at the requirement, software, hardware, management, or test level individually and still fail at the boundaries between them.
+These research directions are not separate from the earlier engineering work. They grew from recurring problems encountered across embedded systems, control, integration, validation, and technical execution: unclear assumptions, weak interfaces between specification and implementation, incomplete evidence, and systems that appear correct locally but fail at their boundaries.
 
 ## Engineering Perspective
 
