@@ -13,18 +13,16 @@ Today, I remain hands-on while also working at the architecture and technical-le
 ## Current Focus
 
 - Embedded systems and firmware architecture
-- Embedded Linux and real-time Linux
+- Embedded Linux and real-time systems
 - MCU-based system development
-- Motor control and real-time control
-- Control systems and robotics
+- Motor control, control systems, and robotics
 - Hardware/software integration and bring-up
-- System modeling, verification, debugging, and validation
+- System modeling, debugging, verification, and validation
 - Low-level processor and bus interfacing
-- Technical planning, engineering governance, validation, and evidence-based execution
-- Specification-to-executable engineering
-- Trust, evidence, and provenance for AI-assisted software engineering
+- Technical planning, engineering governance, and evidence-based execution
+- Specification-to-executable engineering and trustworthy AI-assisted software development
 
-## Selected Current Projects
+## Selected Projects
 
 ### [Spec2Exec](https://github.com/cctsao1008/spec2exec)
 
@@ -121,8 +119,8 @@ The work also expanded beyond MCU-only systems into heterogeneous architectures 
 Projects and system-integration work included:
 
 - STM32 + Nvidia Tegra K1 heterogeneous flight-control architectures
-- Drone computer-vision collaboration, with primary responsibility for embedded control and system integration
-- SLAM-oriented autonomous ground-vehicle collaboration, with primary responsibility for vehicle control and motion integration
+- Drone computer-vision collaboration, focusing on embedded control and system integration
+- SLAM-oriented autonomous ground-vehicle collaboration, focusing on vehicle control and motion integration
 - Mixed-reality drone concepts
 - TI-based embedded application-processor platforms
 - Mecanum-wheel AGV motion control
@@ -137,9 +135,7 @@ Related repositories include:
 
 #### Historical Platform Context
 
-Platforms and environments used during this period included Qualcomm MSM-series application processors, STM32 F1/F3/F4, Raspberry Pi, Generalplus GPCE, NXP and Nuvoton MCUs, Nvidia Tegra K1, and RTOS environments such as FreeRTOS, NuttX, uC/OS, RTX, and RT-Thread.
-
-These platforms reflect the breadth of the engineering work from device-level firmware and RTOS-based systems to application processors, robotics, and heterogeneous embedded architectures.
+Historical platforms and environments from this period included Qualcomm MSM-series application processors, STM32 F1/F3/F4, Raspberry Pi, Generalplus GPCE, NXP and Nuvoton MCUs, Nvidia Tegra K1, and RTOS environments including FreeRTOS, NuttX, uC/OS, RTX, and RT-Thread.
 
 ### Embedded RTOS, Sensors, and Audio Experiments
 
@@ -175,17 +171,6 @@ My current research direction is [Spec2Exec](https://github.com/cctsao1008/spec2
 In parallel, the [Technical Management Framework](https://github.com/cctsao1008/technical-management-framework) captures reusable practices for technical planning, engineering governance, execution, validation, evidence management, and AI-assisted collaboration across projects.
 
 Both directions grow from the same recurring engineering problem: a system can appear correct at the requirement, software, hardware, management, or test level individually and still fail at the boundaries between them.
-
-## Real-Time Linux Experiments
-
-Ongoing exploration of Linux-based embedded and real-time systems includes:
-
-- PREEMPT_RT
-- Embedded Linux
-- Buildroot
-- Kernel configuration and bring-up
-- USB gadget interfaces
-- Real-time measurement and control experiments
 
 ## Engineering Perspective
 
