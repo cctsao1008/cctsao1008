@@ -208,25 +208,25 @@ Evidence / Feedback
 
 I am most interested in the gaps between these layers: ambiguous intent, hidden assumptions, timing effects, hardware/software mismatches, incomplete validation, weak evidence chains, and integration failures that are difficult to see when each layer is considered independently.
 
-## Technologies
+## Technical Domains
 
-**Embedded / MCU**  
-`STM32` · `GD32` · `RP2350` · `MSPM0` · `ARM Cortex-M`
+**Processor & System Architecture**  
+`MCU` · `SoC / Application Processor` · `ARM Cortex-M` · `RISC-V` · `Heterogeneous Embedded Systems`
 
-**Software**  
-`C` · `C++` · `Python` · `Bash` · `CMake` · `Git`
+**Embedded & Real-Time Systems**  
+`Embedded Linux` · `PREEMPT_RT` · `RTOS` · `Buildroot`
 
-**Systems**  
-`Linux` · `Embedded Linux` · `PREEMPT_RT` · `Buildroot` · `FreeRTOS` · `NuttX` · `QEMU`
+**Control & Robotics**  
+`State-Space Control` · `PID` · `LQR` · `State Estimation` · `Kalman Filtering` · `System Identification`
 
-**Control / Robotics**  
-`State Space` · `PID` · `LQR` · `State Estimation` · `Kalman Filtering` · `System Identification`
+**Software Engineering**  
+`C` · `C++` · `Python` · `Build Systems` · `Version Control` · `Emulation / Simulation`
 
-**Engineering Execution**  
-`Technical Planning` · `Engineering Governance` · `ADRs` · `Validation` · `Evidence Chains` · `Risk & Assumption Management`
+**Verification & Technical Execution**  
+`Verification` · `Validation` · `Root-Cause Analysis` · `Architecture Decisions` · `Evidence Chains` · `Risk & Assumption Management`
 
-**Interfaces / Integration**  
-`UART` · `SPI` · `I2C` · `CAN` · `USB` · `RS-485` · `MAVLink`
+**System Integration**  
+`Hardware/Software Integration` · `Communication Interfaces` · `Bring-up` · `Cross-Domain Debugging`
 
 ## Philosophy
 
