@@ -1,6 +1,6 @@
 # Cheng
 
-**Technical Leader · Hands-on Embedded Systems Engineer · System Architecture · Control Systems**
+**Hands-on Embedded Systems Engineer · System Architecture · Control Systems**
 
 I work on engineering problems that span software, embedded systems, system architecture, control, integration, timing, and real-world behavior.
 
