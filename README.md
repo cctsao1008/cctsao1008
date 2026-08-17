@@ -79,7 +79,8 @@ The platform integrates inertial and environmental sensing, actuator interfaces,
 
 My early work covered several very different embedded domains:
 
-- Quadcopter design, implementation, and flight-control work on an EM78569-based platform, including a first-place project in the 9th ELAN Microcontroller Application and Artificial Intelligence Design Competition
+- Quadcopter design, implementation, and flight-control work on an EM78569-based platform
+- **1st Place**, 9th ELAN Microcontroller Application and Artificial Intelligence Design Competition — Microcontroller Application Project / Innovation Division. Project: *四旋翼直升機的設計製作與飛行控制實現*. Hsiuping Institute of Technology; students: **曹嘉誠、蔡幸其**; advisor: 楊基鑫
 - Mitsubishi PLC work for chemical-process control
 - Sunplus-based interactive storybook systems
 - Sunplus video / display processing experiments
