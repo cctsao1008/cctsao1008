@@ -73,7 +73,7 @@ The platform integrates inertial and environmental sensing, actuator interfaces,
 
 My early work covered several very different embedded domains:
 
-- Quadcopter development on an EM78569 platform
+- Quadcopter development and stability-control work on an EM78569 platform, including an award-winning student project
 - Mitsubishi PLC work for chemical-process control
 - Sunplus-based interactive storybook systems
 - Sunplus video / display processing experiments
@@ -90,7 +90,7 @@ Across these projects, the recurring engineering problem was increasingly not ju
 
 #### Mobile and Embedded Platforms
 
-I spent a major part of this period working on Qualcomm-based mobile platforms and embedded software integration.
+I spent a major part of this period working on Qualcomm-based mobile platforms, BSP and firmware development, and embedded software integration across Windows Mobile, Android, and related low-level software stacks.
 
 This strengthened my experience in larger embedded software stacks, platform integration, device-level debugging, communication interfaces, and the interaction between low-level software and application-level system behavior.
 
@@ -118,15 +118,15 @@ Some of the historical source and board-porting work from this period is preserv
 
 The work also expanded beyond MCU-only systems into heterogeneous architectures combining embedded controllers with application processors.
 
-Projects and experiments included:
+Projects and system-integration work included:
 
-- STM32 + Nvidia Tegra K1 flight-controller architecture
-- Computer-vision concepts for drones
-- SLAM-oriented autonomous ground vehicles
+- STM32 + Nvidia Tegra K1 heterogeneous flight-control architectures
+- Drone computer-vision collaboration, with primary responsibility for embedded control and system integration
+- SLAM-oriented autonomous ground-vehicle collaboration, with primary responsibility for vehicle control and motion integration
 - Mixed-reality drone concepts
 - TI-based embedded application-processor platforms
 - Mecanum-wheel AGV motion control
-- Robot-arm integration
+- Four- and six-axis robot-arm integration, including UR3
 - Instrument automation and multi-device equipment control
 
 Related repositories include:
@@ -134,6 +134,12 @@ Related repositories include:
 - [NTUT Rover](https://github.com/cctsao1008/ntut_rover) — **2014** · Raspberry Pi-based autonomous rover following recorded GPS waypoints
 - [Mecanum AGV Motion Control](https://github.com/cctsao1008/mecanum-agv-motion-control) — **2016** · vehicle-frame motion control, Mecanum-wheel kinematics, feedback control, and embedded execution for an AGV mobile base
 - [Instrument Automation Control](https://github.com/cctsao1008/instrument-automation-control) — **2017** · modular instrument automation and equipment orchestration across device control, communication, scripting, scheduling, and data services
+
+#### Historical Platform Context
+
+Platforms and environments used during this period included Qualcomm MSM-series application processors, STM32 F1/F3/F4, Raspberry Pi, Generalplus GPCE, NXP and Nuvoton MCUs, Nvidia Tegra K1, and RTOS environments such as FreeRTOS, NuttX, uC/OS, RTX, and RT-Thread.
+
+These platforms reflect the breadth of the engineering work from device-level firmware and RTOS-based systems to application processors, robotics, and heterogeneous embedded architectures.
 
 ### Embedded RTOS, Sensors, and Audio Experiments
 
