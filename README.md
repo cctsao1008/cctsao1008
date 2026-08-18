@@ -10,9 +10,9 @@ My work spans hands-on implementation through system architecture, validation, a
 
 ## Active Projects
 
-### [Rotary Inverted Pendulum](https://github.com/cctsao1008/inverted-pendulum) · 2026–Present
+### [Technical Management Framework](https://github.com/cctsao1008/technical-management-framework) · 2026–Present
 
-From-scratch embedded firmware and control software for a rotary inverted pendulum, covering STM32F103 bring-up, sensing, encoder acquisition, motor characterization, state estimation, state-feedback control, fail-closed safety boundaries, telemetry, and host-side verification.
+A reusable, project-agnostic framework for technical planning, engineering governance, execution, validation, evidence management, knowledge capture, and AI-assisted collaboration. It separates reusable engineering practice from project-local technical truth, with explicit treatment of baselines, decision records, risks and assumptions, evidence chains, validation, retrospectives, and cross-project learning.
 
 ### [Spec2Exec](https://github.com/cctsao1008/spec2exec) · 2026–Present
 
@@ -24,9 +24,17 @@ The current prototype demonstrates a native RV32I path under QEMU with explicit 
 
 Porting the Pi86 concept to a Waveshare RP2350-PiZero while preserving the original Pi86 V20/V30 HAT and using a physical NEC V30 processor. The architecture explores deterministic RP2350 firmware for V30 clocking and bus service using PIO/SIO, with hardware bring-up and further system integration in progress.
 
-### [Technical Management Framework](https://github.com/cctsao1008/technical-management-framework) · 2026–Present
+### [Rotary Inverted Pendulum](https://github.com/cctsao1008/inverted-pendulum) · 2026–Present
 
-A reusable, project-agnostic framework for technical planning, engineering governance, execution, validation, evidence management, knowledge capture, and AI-assisted collaboration. It separates reusable engineering practice from project-local technical truth, with explicit treatment of baselines, decision records, risks and assumptions, evidence chains, validation, retrospectives, and cross-project learning.
+From-scratch embedded firmware and control software for a rotary inverted pendulum, covering STM32F103 bring-up, sensing, encoder acquisition, motor characterization, state estimation, state-feedback control, fail-closed safety boundaries, telemetry, and host-side verification.
+
+### [BLDC / PMSM Motor Control](https://github.com/cctsao1008/bldc-pmsm-motor-control) · 2026–Present
+
+Physical motor-control platform for developing and comparing sensorless six-step commutation and field-oriented control (FOC), with emphasis on sensing, timing, estimation, current control, and measurement-driven validation. Current work focuses on hardware characterization, sensing validation, and establishing a known-good baseline before independent control development.
+
+### [Bidirectional Buck-Boost Control](https://github.com/cctsao1008/bidirectional-buckboost-control) · 2026–Present
+
+Digital power-control research platform based on a four-switch bidirectional buck-boost converter, using measured hardware to study plant modeling, classical and state-space control, estimation, and reproducible controller comparison. Current work focuses on reference-system and physical-plant characterization.
 
 ## Background
 
