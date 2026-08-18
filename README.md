@@ -10,8 +10,6 @@ My work spans hands-on implementation through system architecture, validation, a
 
 ## Active Projects
 
-The following projects are active research and development efforts started in 2026.
-
 ### [Technical Management Framework](https://github.com/cctsao1008/technical-management-framework)
 
 A reusable, project-agnostic framework for technical planning, engineering governance, execution, validation, evidence management, knowledge capture, and AI-assisted collaboration. It separates reusable engineering practice from project-local technical truth, with explicit treatment of baselines, decision records, risks and assumptions, evidence chains, validation, retrospectives, and cross-project learning.
