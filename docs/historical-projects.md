@@ -1,6 +1,11 @@
 # Historical Projects
 
-This index preserves older public repositories and experiments without turning the profile README into a platform or project inventory. Descriptions distinguish original work, ports, derived work, and experiments where relevant.
+This is the canonical index of older public repositories and experiments. It keeps the
+profile README and the engineering journey free of platform and project inventories.
+
+Descriptions distinguish original work, ports, derived work, and experiments where
+relevant. Everything listed here is preserved as-is and is not under active
+development; see the [profile README](../README.md) for current projects.
 
 ## Flight Control & Autonomous Systems
 
@@ -80,4 +85,4 @@ GCC/Make-based STM32 firmware port/build work for the TS100 soldering iron.
 
 Some historical repositories are ports, derived trees, experiments, or customizations rather than wholly original codebases. The labels above are intended to preserve that distinction and avoid overstating authorship.
 
-[← Back to profile README](../README.md)
+[← Back to profile README](../README.md) · [Engineering Journey →](engineering-journey.md)
