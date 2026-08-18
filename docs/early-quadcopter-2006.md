@@ -12,7 +12,7 @@ The project is part of the earliest stage of the engineering journey documented 
 - **Competition:** 9th ELAN Microcontroller Application and Artificial Intelligence Design Competition
 - **Division:** Microcontroller Application Project / Innovation Division
 - **Project:** *Design, Implementation, and Flight Control of a Quadcopter*
-- **Institution:** Hsiuping Institute of Technology
+- **Institution:** Hsiuping Institute of Technology (now Hsiuping University of Science and Technology)
 - **Students:** Cheng (Ricardo) Tsao, Shin-Chi Tsai
 - **Advisor:** Chi-Ching Yang
 
@@ -24,9 +24,14 @@ This project predates the later flight-controller, robotics, autonomous-system, 
 
 ## Public References
 
-- Hsiuping University of Science and Technology award record: https://eem.hust.edu.tw/?item=29&custom=3049&type=detail&isEn=0
-- National Digital Library of Theses and Dissertations in Taiwan record for team member Shin-Chi Tsai: https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22096FCU05295010%22.&searchmode=basic
-- Airiti Library author record supporting the English name Chi-Ching Yang: https://www.airitilibrary.com/Article/Detail/18172954-201303-201303280014-201303280014-29-40
+Each reference below states what it evidences, so that nothing is implied beyond what the source actually supports.
+
+- **The award itself** — Hsiuping University of Science and Technology award record:  
+  https://eem.hust.edu.tw/?item=29&custom=3049&type=detail&isEn=0
+- **Team member identity** (not the award) — National Digital Library of Theses and Dissertations in Taiwan record for Shin-Chi Tsai:  
+  https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22096FCU05295010%22.&searchmode=basic
+- **English spelling of the advisor's name** — Airiti Library author record for Chi-Ching Yang:  
+  https://www.airitilibrary.com/Article/Detail/18172954-201303-201303280014-201303280014-29-40
 
 These references are retained as historical provenance. Follow-on work by other team members is not presented as my own work.
 
