@@ -12,37 +12,37 @@ My work spans hands-on implementation through system architecture, validation, a
 
 These projects explore system architecture at different layers — from technical execution and software trust to computer architecture, control systems, motor drives, and physical power conversion.
 
-### [Technical Management Framework](https://github.com/cctsao1008/technical-management-framework)
+### [Technical Management Framework](https://github.com/cctsao1008/technical-management-framework) · 2026
 
 Explores how engineering work can be structured so that planning, decisions, risks, validation, and evidence remain connected throughout a project.
 
 The framework is deliberately project-agnostic: it defines reusable principles, processes, and templates while project-specific architecture, requirements, evidence, decision records, and validation status remain in each project repository.
 
-### [Spec2Exec](https://github.com/cctsao1008/spec2exec)
+### [Spec2Exec](https://github.com/cctsao1008/spec2exec) · 2026
 
 Explores how authorized human intent can reach executable behavior without silent semantic invention or loss of traceability along the way.
 
 The current prototype combines semantic-obligation discovery, authority gating, deterministic verification, artifact-bound evidence, and target realization. It demonstrates an authority-gated native RV32I path under QEMU with explicit per-boundary evidence, alongside bounded lifecycle Trust Graph validation; comparative assurance is the next research phase.
 
-### [Pi86-RP2350](https://github.com/cctsao1008/pi86-rp2350)
+### [Pi86-RP2350](https://github.com/cctsao1008/pi86-rp2350) · 2026
 
 Explores how a modern RP2350 can act as a programmable chipset around a real NEC V30 while preserving the processor's original bus behavior.
 
 The architecture keeps the hardest real-time bus path in PIO/DMA and moves higher-level supervision and services onto the Arm cores. The physical V30 has already executed a native BIOS diagnostic that prints `HELLO RP2350` at 0.300 MHz.
 
-### [Rotary Inverted Pendulum](https://github.com/cctsao1008/inverted-pendulum)
+### [Rotary Inverted Pendulum](https://github.com/cctsao1008/inverted-pendulum) · 2026
 
 Re-engineers an existing working rotary inverted pendulum into a measurable, testable, safety-gated, and progressively commissionable embedded control platform.
 
 The architecture separates state estimation, control computation, and physical actuator authority, while keeping control logic platform-independent where practical for host-side testing before real motor output is enabled.
 
-### [BLDC / PMSM Motor Control](https://github.com/cctsao1008/bldc-pmsm-motor-control)
+### [BLDC / PMSM Motor Control](https://github.com/cctsao1008/bldc-pmsm-motor-control) · 2026
 
 Uses a vendor-validated three-phase inverter as a stable physical platform for developing and comparing BLDC and PMSM control strategies.
 
 The architecture separates power hardware, sensing, timing, motor state, and control so sensorless six-step commutation and field-oriented control (FOC) can be developed against the same known-good hardware baseline.
 
-### [Bidirectional Buck-Boost Control](https://github.com/cctsao1008/bidirectional-buckboost-control)
+### [Bidirectional Buck-Boost Control](https://github.com/cctsao1008/bidirectional-buckboost-control) · 2026
 
 Uses a known-good four-switch bidirectional buck-boost converter as a physical plant for digital-control research.
 
