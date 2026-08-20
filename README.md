@@ -1,4 +1,4 @@
-# Cheng (Ricardo) Tsao
+# Cheng (Ricardo)
 
 **Hands-on Technical Leader · System Architecture · Embedded Systems · Control Systems**
 
