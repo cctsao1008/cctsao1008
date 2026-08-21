@@ -30,7 +30,7 @@ Explores how a modern RP2350 can act as a programmable chipset around a real NEC
 
 The architecture keeps the hardest real-time bus path in PIO/DMA and moves higher-level supervision and services onto the Arm cores. The physical V30 has already executed a native BIOS diagnostic that prints `HELLO RP2350` at 0.300 MHz.
 
-### [Rotary Inverted Pendulum](https://github.com/cctsao1008/inverted-pendulum) · 2026
+### [Rotary Inverted Pendulum](https://github.com/cctsao1008/rotary-inverted-pendulum) · 2026
 
 Re-engineers an existing working rotary inverted pendulum into a measurable, testable, safety-gated, and progressively commissionable embedded control platform.
 
