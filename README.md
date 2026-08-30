@@ -24,11 +24,13 @@ Explores how authorized human intent can reach executable behavior without silen
 
 The current prototype combines semantic-obligation discovery, authority gating, deterministic verification, artifact-bound evidence, and target realization. It demonstrates an authority-gated native RV32I path under QEMU with explicit per-boundary evidence, alongside bounded lifecycle Trust Graph validation; comparative assurance is the next research phase.
 
-### 🕰️ [Pi86-RP2350](https://github.com/cctsao1008/pi86-rp2350) · 2026
+### 🕰️ [pi86-rp2350](https://github.com/cctsao1008/pi86-rp2350) · 2026
 
-Explores how a modern RP2350 can act as a programmable chipset around a real NEC V30 while preserving the processor's original bus behavior.
+Builds a Host-Managed Bare-Metal Physical Processor Runtime for real Intel 8086 and NEC V30 processors.
 
-The architecture keeps the hardest real-time bus path in PIO/DMA and moves higher-level supervision and services onto the Arm cores. The physical V30 has already executed a native BIOS diagnostic that prints `HELLO RP2350` at 0.300 MHz.
+A modern Host loads and supervises native workloads, while the RP2350 owns clock, reset, memory, I/O, interrupts, storage, and the physical processor bus. The runtime has physically demonstrated automatic processor identification, native workload execution at 1 MHz, shared memory, persistent FAT storage, interactive control, and CRC-protected `.P86W` workload packages.
+
+The physical processor executes the instructions. The RP2350 does not emulate it.
 
 ### 🌀 [Rotary Inverted Pendulum](https://github.com/cctsao1008/rotary-inverted-pendulum) · 2026
 
