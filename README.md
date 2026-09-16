@@ -20,9 +20,9 @@ The framework is deliberately project-agnostic: it defines reusable principles, 
 
 ### 🧩 [Spec2Exec](https://github.com/cctsao1008/spec2exec) · 2026
 
-Explores how authorized human intent can reach executable behavior without silent semantic invention or loss of traceability along the way.
+Explores trust infrastructure for AI-generated executable systems: how unstated, unresolved, or unauthorized semantic decisions can be prevented from silently becoming software behavior.
 
-The current prototype combines semantic-obligation discovery, authority gating, deterministic verification, artifact-bound evidence, and target realization. It demonstrates an authority-gated native RV32I path under QEMU with explicit per-boundary evidence, alongside bounded lifecycle Trust Graph validation; comparative assurance is the next research phase.
+The architecture combines semantic-obligation discovery, explicit semantic authority, deterministic verification, artifact-bound evidence, lifecycle-aware trust, and target realization so implementation correctness cannot be mistaken for semantic authorization.
 
 ### 🧠 [LSMM](https://github.com/cctsao1008/lsmm.c) · 2026
 
@@ -32,9 +32,9 @@ The research focuses on first-meaning formation, semantic judgment, consequentia
 
 ### 🪧 [Conversation Blackboard](https://github.com/cctsao1008/conversation-blackboard) · 2026
 
-Builds a persistent shared blackboard for independent AI conversations, agents, tools, and humans that need durable shared context without collapsing their identities, memories, or authority boundaries.
+Builds a persistent shared blackboard for independent AI conversations, agents, tools, and humans that need durable shared context without collapsing identity or authority boundaries.
 
-The architecture separates authentication, principal resolution, logical participant identity, authorization, semantic operations, and authoritative durable state. Multiple transports — including Web, programmatic APIs, MCP, and GitHub-authenticated paths — converge on the same runtime and authorization semantics.
+The architecture separates external authentication principals, logical representation identities, authorization, semantic operations, and authoritative durable state. Web, APIs, MCP, OIDC-authenticated paths, and GitHub ingress converge on the same participant, authorization-policy, provenance, and persistence semantics.
 
 ### 📬 [Conversation Blackboard Gateway](https://github.com/cctsao1008/conversation-blackboard-gateway) · 2026
 
@@ -50,23 +50,21 @@ The Coupled Shared Routine Dynamics Model (CSRDM) uses a stochastic hidden-state
 
 ### 🎮 [Fami Pixel](https://github.com/cctsao1008/fami-pixel) · 2026
 
-Builds a machine-learning and planning playground for Famicom / NES games, with Super Mario Bros. on Mesen CE as the first workload.
+Builds a deterministic machine-control research platform for Famicom / NES games, with Super Mario Bros. on Mesen CE as the first workload.
 
-The emulator remains authoritative for machine state while Python and native adapters provide observation, deterministic frame stepping, controller input, forward-model rollouts, and planning experiments. The architecture supports vision-only, state-only, and hybrid observation paths without modifying the game ROM.
+Mesen remains the transition authority while Python performs semantic perception, objective arbitration, exact save-state forward search, and receding-horizon control. The V26 controller has autonomously completed World 1-1 using native emulator state, survival/reward semantics, parallel shadow rollouts, and bounded-prefix replanning.
 
 ### 🕰️ [pi86-rp2350](https://github.com/cctsao1008/pi86-rp2350) · 2026
 
 Builds a Host-Managed Bare-Metal Physical Processor Runtime for real Intel 8086 and NEC V30 processors.
 
-A modern Host loads and supervises native workloads, while the RP2350 owns clock, reset, memory, I/O, interrupts, storage, and the physical processor bus. The runtime has physically demonstrated automatic processor identification, native workload execution at 1 MHz, shared memory, persistent FAT storage, interactive control, and CRC-protected `.P86W` workload packages.
-
-The physical processor executes the instructions. The RP2350 does not emulate it.
+A modern Host orchestrates workloads and services, the RP2350 M33 owns policy and resources, and a PIO/DMA realtime data plane services the physical processor bus without synchronous dependence on USB or Host latency. The real processor remains the native execution authority; the RP2350 does not emulate it.
 
 ### 🌀 [Rotary Inverted Pendulum](https://github.com/cctsao1008/rotary-inverted-pendulum) · 2026
 
-Re-engineers an existing working rotary inverted pendulum into a measurable, testable, safety-gated, and progressively commissionable embedded control platform.
+Builds a Rust-first, `no_std` control system for a Furuta-style rotary inverted pendulum, covering swing-up, capture, balance, estimation, safety, and staged physical commissioning.
 
-The architecture separates state estimation, control computation, and physical actuator authority, while keeping control logic platform-independent where practical for host-side testing before real motor output is enabled.
+The architecture separates Plant, Control, Supervisor, and Firmware, with a typed path from physical observation through estimated state and generalized torque demand to bounded and explicitly authorized actuation. The current STM32F103 runtime intentionally executes the full control path in a non-actuating configuration while physical authority remains gated.
 
 ### 🛞 [Single-Wheel Platform](https://github.com/cctsao1008/single-wheel-platform) · 2026
 
@@ -88,9 +86,9 @@ The architecture separates power hardware, sensing, timing, motor state, and con
 
 ### ⚡ [Bidirectional Buck-Boost Control](https://github.com/cctsao1008/bidirectional-buckboost-control) · 2026
 
-Uses a known-good four-switch bidirectional buck-boost converter as a physical plant for digital-control research.
+Re-architects a four-switch bidirectional buck-boost converter around a unified physical-state control model rather than separate Buck / Boost mode controllers.
 
-The architecture separates measurement, plant modeling, sensing, control law, modulation, and hardware-specific PWM so different control methods can be compared under the same experimental protocol. Current work focuses on reference-system and physical-plant characterization.
+The design combines PWM-synchronized sensing, physics-based main-inductor-current estimation without a permanent `iL` sensor, signed bidirectional state semantics, control in requested average inductor voltage `vL*`, and continuous constrained `e1/e2` duty allocation on an STM32F334-based power stage.
 
 ## 🛠️ Background
 
