@@ -72,6 +72,12 @@ Builds a Rust `no_std` control and system-identification platform for a reaction
 
 The architecture deliberately separates physical evidence, estimated state, control intent, bounded actuator commands, runtime authorization, and electrical realization so that no layer gains more meaning or authority than the available evidence supports.
 
+### 🔺 [TriWhirl](https://github.com/cctsao1008/triwhirl) · 2026
+
+Develops robust control for a reaction-wheel Reuleaux triangle on ESP32, combining experimental plant identification, explicit uncertainty modeling, and offline-synthesized H∞ state feedback with a deterministic embedded runtime.
+
+The architecture separates sensing, estimation, safety authority, control, and actuator realization while keeping UART, BLE, and host-side engineering tools outside the 1 kHz real-time path. Physical measurements remain the basis for plant parameters, operating limits, and controller validation.
+
 ### 👀 [Bividi](https://github.com/cctsao1008/bividi) · 2026
 
 Builds a stereo-inertial sensor-acquisition system that turns device-specific camera and IMU data into clean, synchronized observation streams.
