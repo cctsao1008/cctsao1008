@@ -72,7 +72,7 @@ Builds a Rust `no_std` control and system-identification platform for a reaction
 
 The architecture deliberately separates physical evidence, estimated state, control intent, bounded actuator commands, runtime authorization, and electrical realization so that no layer gains more meaning or authority than the available evidence supports.
 
-### 🔺 [TriWhirl](https://github.com/cctsao1008/triwhirl) · 2026
+### 🔻 [TriWhirl](https://github.com/cctsao1008/triwhirl) · 2026
 
 Develops robust control for a reaction-wheel Reuleaux triangle on ESP32, combining experimental plant identification, explicit uncertainty modeling, and offline-synthesized H∞ state feedback with a deterministic embedded runtime.
 
