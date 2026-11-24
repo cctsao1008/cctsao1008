@@ -8,11 +8,14 @@ My work spans hands-on implementation through system architecture, validation, a
 
 > **The projects and technical work highlighted here are personal projects, historical work, or public open-source activities, and are independent of my current employer.**
 
-## 🛠️ Engineering Background at a Glance
+## 🛠️ Background
 
-I have worked in embedded and control systems since 2005, spanning microcontroller systems, mobile/BSP platforms, RTOS, robotics, flight control, motor control, and system integration. Since 2021, my focus has broadened toward system architecture, validation, technical decision-making, and cross-layer technical leadership while remaining hands-on with low-level and real-time systems.
+- **2005–2008** — Early embedded systems and control. An EM78569-based quadcopter project received **1st Place** in the 9th ELAN Microcontroller Application and Artificial Intelligence Design Competition ([project and provenance](docs/early-quadcopter-2006.md)).
+- **2008–2021** — Qualcomm mobile platforms and BSP work, STM32 flight control, BLDC motor control, Mecanum AGV motion control, robotics and automation, RTOS work, and heterogeneous embedded systems.
+- **2021–Present** — System integration, architecture, validation, technical decision-making, and technical leadership across multiple projects and teams, with recent hands-on work in real-time Linux, RP2350, low-level architecture, and control-system implementation.
+- **Current research** — Machine-native meaning, trustworthy software construction, evidence-oriented engineering, and specification-to-executable development.
 
-My current personal research connects machine-native meaning, trustworthy software construction, evidence-oriented engineering, physical computing, and control — with a recurring emphasis on making system boundaries, authority, assumptions, and validation explicit.
+[Full engineering journey →](docs/engineering-journey.md)
 
 ## 🚀 Active Projects
 
@@ -101,15 +104,6 @@ The architecture separates power hardware, sensing, timing, motor state, and con
 Re-architects a four-switch bidirectional buck-boost converter around a unified physical-state control model rather than separate Buck / Boost mode controllers.
 
 The design combines PWM-synchronized sensing, physics-based main-inductor-current estimation without a permanent `iL` sensor, signed bidirectional state semantics, control in requested average inductor voltage `vL*`, and continuous constrained `e1/e2` duty allocation on an STM32F334-based power stage.
-
-## 🛠️ Background
-
-- **2005–2008** — Early embedded systems and control. An EM78569-based quadcopter project received **1st Place** in the 9th ELAN Microcontroller Application and Artificial Intelligence Design Competition ([project and provenance](docs/early-quadcopter-2006.md)).
-- **2008–2021** — Qualcomm mobile platforms and BSP work, STM32 flight control, BLDC motor control, Mecanum AGV motion control, robotics and automation, RTOS work, and heterogeneous embedded systems.
-- **2021–Present** — System integration, architecture, validation, technical decision-making, and technical leadership across multiple projects and teams, with recent hands-on work in real-time Linux, RP2350, low-level architecture, and control-system implementation.
-- **Current research** — Machine-native meaning, trustworthy software construction, evidence-oriented engineering, and specification-to-executable development.
-
-[Full engineering journey →](docs/engineering-journey.md)
 
 ## 📦 Archive
 
