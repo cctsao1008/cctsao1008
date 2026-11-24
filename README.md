@@ -8,6 +8,12 @@ My work spans hands-on implementation through system architecture, validation, a
 
 > **The projects and technical work highlighted here are personal projects, historical work, or public open-source activities, and are independent of my current employer.**
 
+## 🛠️ Engineering Background at a Glance
+
+I have worked in embedded and control systems since 2005, spanning microcontroller systems, mobile/BSP platforms, RTOS, robotics, flight control, motor control, and system integration. Since 2021, my focus has broadened toward system architecture, validation, technical decision-making, and cross-layer technical leadership while remaining hands-on with low-level and real-time systems.
+
+My current personal research connects machine-native meaning, trustworthy software construction, evidence-oriented engineering, physical computing, and control — with a recurring emphasis on making system boundaries, authority, assumptions, and validation explicit.
+
 ## 🚀 Active Projects
 
 These projects explore system architecture at different layers — from technical execution, software trust, semantic systems, and probabilistic modeling to computer architecture, machine control, sensing, motor drives, and physical power conversion.
